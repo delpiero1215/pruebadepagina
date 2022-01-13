@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PILAS CON EL AMBIENTE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="StylesFO.css">
+</head>
+<body>
+    <div class="navegacion">
+        <div class="logo">
+           <div class="icon"><ion-icon name="star-half-outline"></ion-icon> 
+        </div>
+        <div class="namePa">PILAS CON EL AMBIENTE</div>
+        </div>
+        <ul>
+            <li><a href="C:\Users\Equipo7\Desktop\Nuevo proyecto\index.html">Inicio</a> </li>
+            <li><a href="formulario.html">Registros</a></li>
+        </ul>
+    </div>
+    <div class="formulario">
+        <div>
+            <h1>
+                Realiza el proceso de registro para ponernos en contacto contigo.
+            </h1>
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label for="nombre_User">Nombre de Usuario</label></td>
+                        <td><input type="text" name="Usuario" id="nombre_User"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Email">Correo Electronico</label></td>
+                        <td><input type="email" name="correo" id="Email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Pass">Contraseña</label></td>
+                        <td><input type="password" name="Clave" id="Pass"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="genero">Genero</label></td>
+                        <td>    
+                        <input type="radio" name="genero" value="femenino">Femenino <br>
+                        <input type="radio" name="genero" value="masculino">Masculino <br>
+                        <input type="radio" name="genero" value="otros">Otros <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Equipos">Cuales son tus Equipos favoritos.</label></td>
+                        <td>
+                        <select name="Equipos">
+                            <option value="Escritorio">Escritorio Gamer</option>
+                            <option value="Portatil">Portatil Gaming</option>
+                            <option value="Torre">Torre Gamer</option>
+                            <option value="Portatil G">Portatil Normal</option>
+                            <option value="Consola">Consolas</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Comentario">Comentario</label></td>
+                        <td><textarea name="Comentario" rows="4" cols="40" value="Comentario">Deje su comentario aquí:</textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Registrar"></td>
+                        <td><input type="reset" value="Borrar"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+   
+    </body>
+</html>
